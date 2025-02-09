@@ -1,8 +1,48 @@
-# React + Vite
+# Tetris Game
+A modern implementation of the classic Tetris game using React, Three.js, and Vite for high-performance and immersive gameplay.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Dynamic Game Mechanics: Includes scoring, leveling, and game-over functionality.
+- Customizable UI: Clean design with responsive layout.
+- Vibrant Graphics: Bright, colorful blocks with smooth animations.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React: A JavaScript library for building the user interface.
+- Three.js: Used for rendering graphics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Development Tools
+- Vite: A fast build tool and development server.
+- ESLint: For maintaining consistent and error-free code.
+- React Hooks: Used to manage game state efficiently.
+
+## Getting Started
+### Prerequisites
+- Node.js: Make sure you have Node.js (v16 or later) installed.
+- Package Manager: Use npm or yarn.
+- Clone the Repository
+
+### Installation
+```bash
+git clone https://github.com/chimikoo/tetris.git
+cd tetris
+```
+```bash
+npm install
+npm run dev
+The app will be available at http://localhost:5173.
+```
+
+## Controls:
+
+`W`: Rotate the block.  
+`A`: Move block left.  
+`D`: Move block right.  
+`S`: Move block down faster.
+
+## Objective:
+
+Align blocks to form complete rows, which clears them and increases your score.
+
+## Game Over:
+
+The game ends when blocks stack up to the top of the grid.
